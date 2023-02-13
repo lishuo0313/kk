@@ -1,14 +1,14 @@
 import werobot
 import openai
 
-openai.api_key = "你的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"
+openai.api_key = "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"
 
 robot = werobot.WeRoBot()
 
 class RobotConfig(object):
     HOST="0.0.0.0"
     PORT= 80
-    TOKEN = "you token"# token是微信公众号用来指定接入当前云服务器的服务的凭证，代表是自己人接入的，等一下就有什么用了
+    TOKEN = "123456"# token是微信公众号用来指定接入当前云服务器的服务的凭证，代表是自己人接入的，等一下就有什么用了
     
 robot.config.from_object(RobotConfig)
 
